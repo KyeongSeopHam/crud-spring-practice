@@ -1,0 +1,41 @@
+< C,R,U,D 연습해보기>
+
+-----------member DB테이블------------------------------------------------------
+(auto) memberNumber(회원번호) PK
+   VAR50            VAR50             VAR30      VAR6           VAR50      INT(10)
+( memberId(계정) , passWord(비밀번호), name(이름) ,date(생년월일), email(이메일)  age(나이)  )
+-------------------------------------------------------------------------------
+ex)
+ pk 1  (  rudtjq1234   1234qwer!@#$  경섭   931029 rudtjq1234@naver.com )  27
+
+
+-----------member class --------------------------------------------------------
+(auto) memberNumber(회원번호) PK ID
+   String            String             String      int         String            int
+( memberId(계정) , passWord(비밀번호), name(이름) ,date(생년월일), email(이메일) )   age(나이)
+---------------------------------------------------------------------------------
+
+
+----회원가입 서비스-----------------------------
+
+    회원가입( createMember )  C
+
+     ---->상세기능
+            회원 전체조회( readMemberInfo ) R
+            회원 상세조회( readDetailMemberInfo) R
+            회원정보수정( updateMemberInfo ) U
+            회원정보삭제( removeMemberInfo ) D
+---------------------------------------------
+packgage           |  createMember
+  service          |  readMemberInfo
+     MemberService |  updateMemberInfo
+                   |  removeMemberInfo
+--------------------
+
+
+
+
+
+
+
+

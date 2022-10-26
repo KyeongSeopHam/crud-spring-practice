@@ -1,4 +1,4 @@
-package nab2.crudpractice.dto;
+package nab2.crudpractice.domain.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -9,11 +9,8 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class MemberDetailDto {
+public class MemberListDto {
     private String loginId;
-    private String pass;
     private String name;
-    private String birth;
     private String email;
-    private int age;
 }

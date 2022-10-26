@@ -2,10 +2,10 @@ package nab2.crudpractice.controller;
 
 
 import lombok.RequiredArgsConstructor;
-import nab2.crudpractice.dto.CreateDto;
-import nab2.crudpractice.dto.MemberDetailDto;
-import nab2.crudpractice.dto.MemberListDto;
-import nab2.crudpractice.dto.UpdateDto;
+import nab2.crudpractice.domain.dto.CreateDto;
+import nab2.crudpractice.domain.dto.MemberDetailDto;
+import nab2.crudpractice.domain.dto.MemberListDto;
+import nab2.crudpractice.domain.dto.UpdateDto;
 import nab2.crudpractice.service.MemberService;
 import org.springframework.web.bind.annotation.*;
 

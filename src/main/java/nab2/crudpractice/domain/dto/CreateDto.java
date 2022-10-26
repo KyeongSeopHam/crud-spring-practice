@@ -1,4 +1,4 @@
-package nab2.crudpractice.dto;
+package nab2.crudpractice.domain.dto;
 
 import lombok.Data;
 

@@ -1,10 +1,10 @@
 package nab2.crudpractice.service;
 
 import nab2.crudpractice.domain.Member;
-import nab2.crudpractice.domain.dto.CreateDto;
-import nab2.crudpractice.domain.dto.MemberDetailDto;
-import nab2.crudpractice.domain.dto.MemberListDto;
-import nab2.crudpractice.domain.dto.UpdateDto;
+import nab2.crudpractice.dto.CreateDto;
+import nab2.crudpractice.dto.MemberDetailDto;
+import nab2.crudpractice.dto.MemberListDto;
+import nab2.crudpractice.dto.UpdateDto;
 import nab2.crudpractice.repository.MemberRepository;
 import org.springframework.stereotype.Service;
 
